@@ -1,0 +1,58 @@
+
+
+
+.yours{
+  float: left;
+  display: table;
+  margin-top: 10px;
+  border: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #2cda9d;
+  color: #1a181b;
+  padding: 5%;
+
+}
+.mines{
+  float: right;
+  display: table;
+  margin-top: 10px;
+  border: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: grey;
+  color: #1a181b;
+  padding: 5%;
+}
+
+
+#text_here{
+  height:400px;
+  width : 400px;
+  border: 1mm solid ;
+  border-color: #4C5050;
+  overflow: scroll;
+
+}
+input{
+  opacity: 0.5;
+}
+input:focus{
+  opacity: 1;
+}
+
+
+.btn {
+  margin-top: 10px; 
+  outline: none;
+  background-color: #4CAF50;
+  color: white;
+  width : 80px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
